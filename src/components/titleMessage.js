@@ -6,27 +6,27 @@ const MyTitleMessage = styled.h1`
   position: absolute;
   width: 100%;
   top: 22rem;
-  z-index: 1;
-  margin-top: -125px;
+//   z-index: 1;
+  margin-top: -5%;
   text-align: center;
 
   strong {
-     font-size: 1.25em;
+     font-size: 70px;
   }
 
   div{
-     color: ${(props) => props.theme.textColor}
+   //   color: ${(props) => props.theme.textColor}
 
-     text-shadow: 0px, 2px, 5px, rgba(0, 0, 0, 0.4)
-     font-weight: 100;
-     letter-spacing: 7px
+   //   text-shadow: 0px, 2px, 5px, rgba(0, 0, 0, 0.4)
+   //   font-weight: 100;
+   //   letter-spacing: 7px
 
      .main{
-        font-size: 50px
+        font-size: 40px
      }
 
      .sub{
-        font-size: 27px;
+        font-size: 30px;
         letter-spacing: 2px;
      }
   }
@@ -36,8 +36,8 @@ const TitleMessage = () => (
   <MyTitleMessage>
     <div className="titleMessage">
       <div className="heading">
-        <div className="main text-center mb-3">
-          Hi, I am
+        <div className="main text-center mb-4">
+          Hello, I am
           <br />
           <span>
             <strong>Eun Hyuk Lee</strong>
@@ -46,7 +46,7 @@ const TitleMessage = () => (
         <div className="sub">
           <Typewriter
             options={{
-              strings: ["Software Developer", "UI UX Designer", "Learner"],
+              strings: ["Full-Stack Developer", "UI UX Designer", "Learner"],
               autoStart: true,
               loop: true,
               delay: 50,
