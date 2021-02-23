@@ -12,7 +12,7 @@ import "./myCarousel.css";
 
 const MyCarousel = () => {
   return (
-    <div>
+    <div id="home">
       <Carousel
         controls={false}
         indicators
