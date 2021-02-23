@@ -25,10 +25,8 @@ const About = () => {
             <Col xs={12} md={3} className="align-item-center">
               <SpeedometerOutline
                 color={"#00000"}
-                //  rotate
                 height="100px"
                 width="100px"
-                onClick={() => alert("Hi!")}
               />
               <br />
               <strong>FAST</strong>
@@ -36,39 +34,21 @@ const About = () => {
               Fast load time and lag free interactions
             </Col>
             <Col xs={12} md={3}>
-              <DesktopOutline
-                color={"#00000"}
-                //  rotate
-                height="100px"
-                width="100px"
-                onClick={() => alert("Hi!")}
-              />
+              <DesktopOutline color={"#00000"} height="100px" width="100px" />
               <br />
               <strong>RESPONSIVE</strong>
               <br />
               Works on any device
             </Col>
             <Col xs={12} md={3}>
-              <BulbOutline
-                color={"#00000"}
-                //  rotate
-                height="100px"
-                width="100px"
-                onClick={() => alert("Hi!")}
-              />
+              <BulbOutline color={"#00000"} height="100px" width="100px" />
               <br />
               <strong>INTUITIVE</strong>
               <br />
               Easy to use and intuitive UI/UX
             </Col>
             <Col xs={12} md={3}>
-              <RocketOutline
-                color={"#00000"}
-                //  rotate
-                height="100px"
-                width="100px"
-                onClick={() => alert("Hi!")}
-              />
+              <RocketOutline color={"#00000"} height="100px" width="100px" />
               <br />
               <strong>DYNAMIC</strong>
               <br />
