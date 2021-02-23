@@ -6,6 +6,7 @@ import MyNavbar from "./components/myNavbar/myNavbar";
 import MyCarousel from "./components/myCarousel/myCarousel"
 import TitleMessage from "./components/titleMessage"
 import About from "./pages/about/about"
+import Skills from "./pages/skills/skills"
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <MyCarousel />
       <TitleMessage />
       <About />
+      <Skills />
     </div>
   );
 };
