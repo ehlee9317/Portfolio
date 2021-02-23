@@ -1,28 +1,25 @@
 import L_HTML5 from "../../assets/skills/html-5.svg";
 import L_CSS3 from "../../assets/skills/css3.svg";
-import L_SASS from "../../assets/skills/sass-1.svg";
+import L_CSS from "../../assets/skills/css.png";
 import L_BOOTSTRAP from "../../assets/skills/bootstrap-4.svg";
 import L_REACT from "../../assets/skills/react.svg";
+import L_REACT_NATIVE from "../../assets/skills/react-native.png";
 import L_REDUX from "../../assets/skills/redux.svg";
-import L_REACT_ROUTER from "../../assets/skills/react-router.svg";
 import L_MATERIALUI from "../../assets/skills/material-ui-1.svg";
 import L_REACT_BOOTSTRAP from "../../assets/skills/react-bootstrap.svg";
 import L_STYLED_COMPONENTS from "../../assets/skills/styled-components.svg";
 import L_NODE_JS from "../../assets/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/skills/express.svg";
-import L_DJANGO from "../../assets/skills/django.svg";
-import L_FLASK from "../../assets/skills/flask.svg";
-import L_MONGODB from "../../assets/skills/mongodb.svg";
 import L_POSTGRESQL from "../../assets/skills/postgresql.svg";
-import L_MSSQL from "../../assets/skills/mssql.svg";
+import L_SEQUELIZE from "../../assets/skills/sequelize.png";
 import L_GIT from "../../assets/skills/git-icon.svg";
 import L_HEROKU from "../../assets/skills/heroku.svg";
-import L_DIGITAL_OCEAN from "../../assets/skills/digital-ocean.svg";
 import L_GITHUB_PAGES from "../../assets/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/skills/javascript.svg";
-import L_TYPESCRIPT from "../../assets/skills/typescript.svg";
-import L_GOLANG from "../../assets/skills/go-6.svg";
-import L_PYTHON from "../../assets/skills/python.svg";
+import L_FIREBASE from "../../assets/skills/firebase.png"
+import L_EXPO from "../../assets/skills/expo.png"
+import L_D3 from "../../assets/skills/d3.png"
+import L_VICTORY from "../../assets/skills/victory.png"
 
 export const skills = {
   frontend: [
@@ -36,7 +33,7 @@ export const skills = {
       link:
         "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
       imgAltText: "CSS 3",
-      imgSrc: L_CSS3,
+      imgSrc: L_CSS,
       skillName: "CSS3",
     },
     {
@@ -56,6 +53,12 @@ export const skills = {
       imgAltText: "React JS",
       imgSrc: L_REACT,
       skillName: "React JS",
+    },
+    {
+      link: "https://reactnative.dev/",
+      imgAltText: "React Native",
+      imgSrc: L_REACT_NATIVE,
+      skillName: "React Native",
     },
     {
       link: "https://redux.js.org/",
@@ -97,17 +100,12 @@ export const skills = {
       skillName: "Express",
     },
     {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
     },
-    {
-      link: "https://flask.palletsprojects.com/",
-      imgAltText: "Flask",
-      imgSrc: L_FLASK,
-      skillName: "Flask",
-    },
+
   ],
   hostingPlatforms: [
     {
@@ -117,10 +115,10 @@ export const skills = {
       skillName: "Heroku",
     },
     {
-      link: "https://www.digitalocean.com/",
-      imgAltText: "Digital Ocean",
-      imgSrc: L_DIGITAL_OCEAN,
-      skillName: "Digital Ocean",
+      link: "https://docs.expo.io/",
+      imgAltText: "Expo",
+      imgSrc: L_EXPO,
+      skillName: "Expo",
     },
     {
       link: "https://pages.github.com/",
@@ -129,32 +127,21 @@ export const skills = {
       skillName: "GitHub Pages",
     },
   ],
-  programmingLanguages: [
+  dataVisualization: [
     {
-      link: "https://www.javascript.com/",
-      imgAltText: "JavaScript",
-      imgSrc: L_JAVASCRIPT,
-      skillName: "JavaScript",
+      link: "https://d3js.org/",
+      imgAltText: "D3.js",
+      imgSrc: L_D3,
+      skillName: "D3.js",
     },
     {
-      link: "https://www.typescriptlang.org/",
-      imgAltText: "TypeScript",
-      imgSrc: L_TYPESCRIPT,
-      skillName: "TypeScript",
-    },
-    {
-      link: "https://www.python.org/",
-      imgAltText: "Python",
-      imgSrc: L_PYTHON,
-      skillName: "Python",
-    },
-    {
-      link: "https://golang.org/",
-      imgAltText: "Golang",
-      imgSrc: L_GOLANG,
-      skillName: "Golang",
+      link: "https://formidable.com/open-source/victory/",
+      imgAltText: "Victory",
+      imgSrc: L_VICTORY,
+      skillName: "Victory",
     },
   ],
+
   databases: [
     {
       link: "https://www.postgresql.org/",
@@ -164,17 +151,12 @@ export const skills = {
     },
     {
       link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-      imgAltText: "MS-SQL",
-      imgSrc: L_MSSQL,
-      skillName: "MS-SQL",
-    },
-    {
-      link: "https://www.mongodb.com/",
-      imgAltText: "MongoDB",
-      imgSrc: L_MONGODB,
-      skillName: "MongoDB",
+      imgAltText: "Sequelize",
+      imgSrc: L_SEQUELIZE,
+      skillName: "Sequelize",
     },
   ],
+
   versionControl: [
     {
       link: "https://git-scm.com/",
