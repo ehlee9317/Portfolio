@@ -16,10 +16,10 @@ import L_GIT from "../../assets/skills/git-icon.svg";
 import L_HEROKU from "../../assets/skills/heroku.svg";
 import L_GITHUB_PAGES from "../../assets/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/skills/javascript.svg";
-import L_FIREBASE from "../../assets/skills/firebase.png"
-import L_EXPO from "../../assets/skills/expo.png"
-import L_D3 from "../../assets/skills/d3.png"
-import L_VICTORY from "../../assets/skills/victory.png"
+import L_FIREBASE from "../../assets/skills/firebase.png";
+import L_EXPO from "../../assets/skills/expo.png";
+import L_D3 from "../../assets/skills/d3.png";
+import L_VICTORY from "../../assets/skills/victory.png";
 
 export const skills = {
   frontend: [
@@ -105,7 +105,6 @@ export const skills = {
       imgSrc: L_FIREBASE,
       skillName: "Firebase",
     },
-
   ],
   hostingPlatforms: [
     {
@@ -143,6 +142,12 @@ export const skills = {
   ],
 
   databases: [
+    {
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
+    },
     {
       link: "https://www.postgresql.org/",
       imgAltText: "PostgreSQL",
