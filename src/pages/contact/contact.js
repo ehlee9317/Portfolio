@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import "./contact.css";
 
 // ICONS
 import { FaLinkedinIn } from "react-icons/fa";
@@ -58,12 +59,14 @@ const Contact = () => {
         </div>
 
         <div className="text-center pt-5 pb-5">
-          <FaLinkedinIn size={32} />
-          <FaInstagram size={33} />
-          <FaGithub size={32} />
-          <FaMediumM size={30} />
+          <div >
+            <FaLinkedinIn size={36} className="icon"/>
+            <FaInstagram size={36} className="icon"/>
+            <FaGithub size={36} className="icon"/>
+            <FaMediumM size={36} />
+          </div>
         </div>
-        <div class="text-center">
+        <div class="text-center pb-4">
           <text>EUN HYUK LEE ©2021</text>
         </div>
       </div>
