@@ -21,34 +21,34 @@ const About = () => {
           <hr />
         </div> */}
         <Container>
-          <Row className="pt-3 pb-5 align-item-center">
-            <Col xs={12} md={3} className="align-item-center">
+          <Row className="pt-3 pb-5 text-center">
+            <Col xs={12} md={3} className="p-1">
               <SpeedometerOutline
                 color={"#00000"}
-                height="100px"
-                width="100px"
+                height="90px"
+                width="90px"
               />
               <br />
               <strong>FAST</strong>
               <br />
               Fast load time and lag free interactions
             </Col>
-            <Col xs={12} md={3}>
-              <DesktopOutline color={"#00000"} height="100px" width="100px" />
+            <Col xs={12} md={3} className="p-1">
+              <DesktopOutline color={"#00000"} height="90px" width="90px" />
               <br />
               <strong>RESPONSIVE</strong>
               <br />
               Works on any device
             </Col>
-            <Col xs={12} md={3}>
-              <BulbOutline color={"#00000"} height="100px" width="100px" />
+            <Col xs={12} md={3} className="p-1">
+              <BulbOutline color={"#00000"} height="90px" width="90px" />
               <br />
               <strong>INTUITIVE</strong>
               <br />
               Easy to use and intuitive UI/UX
             </Col>
-            <Col xs={12} md={3}>
-              <RocketOutline color={"#00000"} height="100px" width="100px" />
+            <Col xs={12} md={3} className="p-1">
+              <RocketOutline color={"#00000"} height="90px" width="90px" />
               <br />
               <strong>DYNAMIC</strong>
               <br />
