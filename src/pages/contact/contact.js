@@ -59,12 +59,42 @@ const Contact = () => {
         </div>
 
         <div className="text-center pt-5 pb-5">
-          <div >
-            <FaLinkedinIn size={36} className="icon"/>
-            <FaInstagram size={36} className="icon"/>
-            <FaGithub size={36} className="icon"/>
+          <button
+            className="icon btn bg-transparent"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "https://www.linkedin.com/in/eunhyuklee/";
+            }}
+          >
+            <FaLinkedinIn size={36} />
+          </button>
+          <button
+            className="icon btn bg-transparent"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "https://www.instagram.com/eun317/";
+            }}
+          >
+            <FaInstagram size={36} />
+          </button>
+          <button
+            className="icon btn bg-transparent"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "https://github.com/ehlee9317";
+            }}
+          >
+            <FaGithub size={36} />
+          </button>
+          <button
+            className="btn bg-transparent"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "https://ehlee9317.medium.com/";
+            }}
+          >
             <FaMediumM size={36} />
-          </div>
+          </button>
         </div>
         <div class="text-center pb-4">
           <text>EUN HYUK LEE ©2021</text>

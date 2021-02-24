@@ -39,7 +39,7 @@ const App = () => {
         </Parallax>
       </div>
       <Container>
-        <Slide bottom duration={1500}>
+        <Slide bottom duration={1000}>
           <hr />
           <Skills />
         </Slide>
