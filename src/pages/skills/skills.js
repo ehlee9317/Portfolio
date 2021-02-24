@@ -15,11 +15,11 @@ const Skills = () => {
       <CardDeck className="justify-content-center">
         <Row>
           {/* Frontend */}
-          <Col>
+          <Col md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
                 {/* Frontend */}
-                <Card.Title className="text-center  card-title">
+                <Card.Title className="text-center card-title">
                   Frontend
                 </Card.Title>
                 <hr />
@@ -48,7 +48,7 @@ const Skills = () => {
           </Col>
 
           {/* Backend */}
-          <Col>
+          <Col md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">
@@ -110,7 +110,7 @@ const Skills = () => {
           </Col>
 
           {/* Data Visualization */}
-          <Col>
+          <Col md={4}>
             <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">

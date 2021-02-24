@@ -1,5 +1,4 @@
 import L_HTML5 from "../../assets/skills/html-5.svg";
-import L_CSS3 from "../../assets/skills/css3.svg";
 import L_CSS from "../../assets/skills/css.png";
 import L_BOOTSTRAP from "../../assets/skills/bootstrap-4.svg";
 import L_REACT from "../../assets/skills/react.svg";
