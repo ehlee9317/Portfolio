@@ -2,20 +2,15 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
-import Box from "@material-ui/core/Box";
+import Button from "react-bootstrap/Button";
+import Nav from "react-bootstrap/Nav";
 
 // ICONS
-import { SiLinkedin } from "react-icons/si";
-import { SiGmail } from "react-icons/si";
-import { SiGithub } from "react-icons/si";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { BiChevronsUp } from "react-icons/bi";
-
-const boxStyle = {
-  //   bgColor: "background.paper",
-  m: 1,
-  style: { width: "2rem", height: "2rem" },
-};
 
 const Contact = () => {
   return (
@@ -25,27 +20,50 @@ const Contact = () => {
         <h4 className="pt-3 text-center pb-3">
           Have a question or want to work together?
         </h4>
-        <Box display="flex">
-          <Box border={1} {...boxStyle}>
-            <BiChevronsUp height="100px"/>
-          </Box>
-        </Box>
-        <Container>
-          <Row>
-            <Col xs={12} md={4} className="align-item-center">
-              <SiLinkedin height="100px" width="100px" />
-              LinkedIn
-            </Col>
-            <Col xs={12} md={4} className="align-item-center">
-              <SiGmail height="100px" width="100px" />
-              Email
-            </Col>
-            <Col xs={12} md={4} className="align-item-center">
-              <SiGithub height="100px" width="100px" />
-              GitHub
-            </Col>
-          </Row>
-        </Container>
+
+        <form class="w-50 ">
+          <div class="form-group">
+            <input
+              type="name"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Name"
+            />
+          </div>
+
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Enter Email"
+            />
+          </div>
+
+          <div class="form-group">
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="5"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+        </form>
+        <div className="text-right">
+          <Button class="btn btn-outline-dark">SUBMIT</Button>
+        </div>
+        <div className="text-center pt-5">
+          <Button href="home">
+            <BiChevronsUp size={32} />
+          </Button>
+        </div>
+
+        <div className="text-center pt-5 pb-5">
+          <FaLinkedinIn size={32} />
+          <FaFacebookF size={30} />
+          <FaInstagram size={33} />
+          <FaGithub size={32} />
+        </div>
       </div>
     </div>
   );
