@@ -5,6 +5,7 @@ import "./App.css";
 import MyNavbar from "./components/myNavbar/myNavbar";
 import MyCarousel from "./components/myCarousel/myCarousel";
 import TitleMessage from "./components/titleMessage";
+import Projects from "./components/projects/projects.js";
 import About from "./pages/about/about";
 import Skills from "./pages/skills/skills";
 import Contact from "./pages/contact/contact";
@@ -38,6 +39,12 @@ const App = () => {
           </div>
         </Parallax>
       </div>
+
+      <Container>
+        <hr />
+        <Projects />
+      </Container>
+
       <Container>
         <Slide bottom duration={1000}>
           <hr />
