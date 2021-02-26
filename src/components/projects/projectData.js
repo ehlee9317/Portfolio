@@ -1,4 +1,6 @@
 import React from "react";
+
+//Tech Icons
 import L_HTML5 from "../../assets/skills/html-5.svg";
 import L_CSS from "../../assets/skills/css.png";
 import L_REACT from "../../assets/skills/react.svg";
@@ -11,9 +13,15 @@ import L_FIREBASE from "../../assets/skills/firebase.png";
 import L_EXPO from "../../assets/skills/expo.png";
 import L_VICTORY from "../../assets/skills/victory.png";
 
-const projectLists = () => [
+//Project Pictures
+import FOODNATION from "../../assets/projects/foodnation.jpg"
+import CELLAR from "../../assets/projects/cellar.jpg"
+import NAVIHEALTH from "../../assets/projects/navihealth.jpg"
+
+export const projectLists = [
   {
-    title: "NaviHealth",
+    title: "NAVIHEALTH",
+    image: NAVIHEALTH,
     caption: "Mobile Application for Health",
     description:
       "NaviHealth is an iOS based mobile application designed to help you track and meet your fitness goals while on the go.",
@@ -51,7 +59,8 @@ const projectLists = () => [
     ],
   },
   {
-    title: "The Cellar",
+    title: "THE CELLAR",
+    image: CELLAR,
     caption: "E-Commerce App for Wines",
     description:
       "An e-commerce web application, where you can shop various types of wine products.",
@@ -90,7 +99,8 @@ const projectLists = () => [
     ],
   },
   {
-    title: "Food Nation",
+    title: "FOOD NATION",
+    image: FOODNATION,
     caption: "Food Recipe Platform",
     description:
       "A one stop mobile application, where you can search for different food recipes",
@@ -123,4 +133,4 @@ const projectLists = () => [
   },
 ];
 
-export default projectLists;
+
