@@ -8,6 +8,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaMediumM } from "react-icons/fa";
 import { BiChevronsUp } from "react-icons/bi";
+import { FiFileText } from "react-icons/fi"
 
 const Contact = () => {
   return (
@@ -68,15 +69,7 @@ const Contact = () => {
           >
             <FaLinkedinIn size={36} />
           </button>
-          <button
-            className="icon btn bg-transparent"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href = "https://www.instagram.com/eun317/";
-            }}
-          >
-            <FaInstagram size={36} />
-          </button>
+
           <button
             className="icon btn bg-transparent"
             onClick={(e) => {
@@ -87,13 +80,22 @@ const Contact = () => {
             <FaGithub size={36} />
           </button>
           <button
-            className="btn bg-transparent"
+            className="icon btn bg-transparent"
             onClick={(e) => {
               e.preventDefault();
               window.location.href = "https://ehlee9317.medium.com/";
             }}
           >
             <FaMediumM size={36} />
+          </button>
+          <button
+            className="btn bg-transparent"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "https://drive.google.com/file/d/1ac1kmvGuNOfW7c2rgZN_WfkYOLrlV6M-/view?usp=sharing";
+            }}
+          >
+            <FiFileText size={36} />
           </button>
         </div>
         <div class="text-center pb-4">
