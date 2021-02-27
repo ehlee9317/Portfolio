@@ -19,3 +19,16 @@
  .image-style1 {
    width: 3em;
  }
+
+ .card-title {
+   font-size: 3em;
+   font-weight: 700;
+ }
+
+ .imageCard {
+    width: 120em;
+ }
+
+.infoText {
+   font-size: 1.1em
+}
