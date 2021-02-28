@@ -17,9 +17,6 @@ const About = () => {
     <div id="about">
       <div className="about">
         <h1 className="pt-3 text-center font-details pb-3">ABOUT</h1>
-        {/* <div className="horizontal">
-          <hr />
-        </div> */}
         <Container>
           <Row className="pt-3 pb-5 text-center">
             <Col xs={12} md={3} className="p-1">
