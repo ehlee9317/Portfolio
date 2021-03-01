@@ -14,9 +14,9 @@ import L_EXPO from "../../assets/skills/expo.png";
 import L_VICTORY from "../../assets/skills/victory.png";
 
 //Project Pictures
-import FOODNATION from "../../assets/projects/foodnation.jpg"
-import CELLAR from "../../assets/projects/cellar.jpg"
-import NAVIHEALTH from "../../assets/projects/navihealth.jpg"
+import FOODNATION from "../../assets/projects/foodnation.jpg";
+import CELLAR from "../../assets/projects/cellar.jpg";
+import NAVIHEALTH from "../../assets/projects/navihealth.jpg";
 
 export const projectLists = [
   {
@@ -132,5 +132,3 @@ export const projectLists = [
     ],
   },
 ];
-
-

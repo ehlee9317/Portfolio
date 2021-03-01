@@ -5,6 +5,7 @@ import Accordion from "react-bootstrap/Accordion";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
 import { projectLists } from "./projectData";
 
 //icons
@@ -29,98 +30,50 @@ const Projects = () => {
         <div>
           <CardDeck className="justify-content-center">
             <Row className="justify-content-center">
-              <Col md={3} className="pb-4 imageCard">
+              <Col md={6} className="pb-4">
+                <Card className="mt-2 mb-2 imageCard">
+                  {/* <Card.Body > */}
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    rounded
+                    className="imageCard"
+
+                  ></Image>{" "}
+
+
+                  {/* </Card.Body> */}
+
+                </Card>
+              </Col>
+              {/* <Col md={3} className="pb-4 imageCard">
                 <Card className="mt-2 mb-2 ">
                   <Image
                     src={project.image}
                     alt={project.title}
                     rounded
-
                   ></Image>{" "}
                 </Card>
-              </Col>
-              <Col md={3} className="pb-4">
+              </Col> */}
+              <Col md={6} className="pb-4">
                 <Card className="mt-2 mb-2">
-                  <Card.Body >
+                  <Card.Body>
                     <Card.Title className="card-title">
                       {project.title}
                       <h4>{project.caption}</h4>
                     </Card.Title>
-                      <hr />
-                    <Card.Text >
+                    <hr />
+                    <Card.Text>
                       <h4 className="infoText">{project.description}</h4>
                     </Card.Text>
                   </Card.Body>
-                  <Accordion.Toggle
-                    as={Card.Header}
+                  <Button
+                    // as={Card.Header}
                     eventKey="1"
                     className="p-2 text-center accordian-main"
                   >
                     PROJECT DETAILS
-                  </Accordion.Toggle>
-
-                  <Accordion.Collapse eventKey="1" className="text-left">
-                    <Card.Body>
-                      <strong>Description:</strong> This is a Todo App created
-                      with React and Material UI that keeps a track of your
-                      Todos
-                      <hr />
-                      <strong>Features:</strong>
-                      <ul className="list-styles pt-1">
-                        <li>Keeps track of your Todos</li>
-                        <li>Powered by React and Material UI</li>
-                        <li>Respoisive Design</li>
-                      </ul>
-                      <hr />
-                      <strong>Tech used:</strong>
-                      <ul>
-                        <li>
-                          <span className="p-2">
-                            <Image
-                              src={L_HTML5}
-                              alt="HTML 5"
-                              rounded
-                              className="image-style m-1"
-                            ></Image>{" "}
-                            HTML5
-                          </span>
-                        </li>
-                        <li>
-                          <span className="p-2">
-                            <Image
-                              src={L_CSS}
-                              alt="CSS 3"
-                              rounded
-                              className="image-style m-1"
-                            ></Image>{" "}
-                            CSS3
-                          </span>
-                        </li>
-                        <li>
-                          <span className="p-2">
-                            <Image
-                              src={L_REACT}
-                              alt="React"
-                              rounded
-                              className="image-style1 m-1"
-                            ></Image>{" "}
-                            React
-                          </span>
-                        </li>
-                        <li>
-                          <span className="p-2">
-                            <Image
-                              src={L_MATERIALUI}
-                              alt="Material-UI"
-                              rounded
-                              className="image-style1 m-1"
-                            ></Image>{" "}
-                            Material-UI
-                          </span>
-                        </li>
-                      </ul>
-                    </Card.Body>
-                  </Accordion.Collapse>
+                  </Button>
                 </Card>
               </Col>
             </Row>
@@ -134,9 +87,7 @@ const Projects = () => {
     <div id="projects">
       <h1 className="text-center font-details-b pt-4 pb-4">PROJECTS</h1>
       <div className="d-flex justify-content-between flex-column mt-1">
-        <div>
-          {displayProjects(projectLists)}
-        </div>
+        <div>{displayProjects(projectLists)}</div>
       </div>
     </div>
   );
