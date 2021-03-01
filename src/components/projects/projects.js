@@ -31,49 +31,78 @@ const Projects = () => {
           <CardDeck className="justify-content-center">
             <Row className="justify-content-center">
               <Col md={6} className="pb-4">
-                <Card className="mt-2 mb-2 imageCard">
-                  {/* <Card.Body > */}
-                  <Image
-                    src={project.image}
-                    alt={project.title}
-                    rounded
-                    className="imageCard"
-
-                  ></Image>{" "}
-
-
-                  {/* </Card.Body> */}
-
-                </Card>
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  rounded
+                  className="imageCard text-center mt-2 mb-2"
+                ></Image>{" "}
               </Col>
-              {/* <Col md={3} className="pb-4 imageCard">
-                <Card className="mt-2 mb-2 ">
-                  <Image
-                    src={project.image}
-                    alt={project.title}
-                    rounded
-                  ></Image>{" "}
-                </Card>
-              </Col> */}
+
               <Col md={6} className="pb-4">
-                <Card className="mt-2 mb-2">
+                <Card className="mt-2 mb-2 text-center">
                   <Card.Body>
                     <Card.Title className="card-title">
                       {project.title}
-                      <h4>{project.caption}</h4>
+                      <h5>{project.caption}</h5>
                     </Card.Title>
                     <hr />
                     <Card.Text>
                       <h4 className="infoText">{project.description}</h4>
                     </Card.Text>
                   </Card.Body>
-                  <Button
+                  <button
                     // as={Card.Header}
-                    eventKey="1"
-                    className="p-2 text-center accordian-main"
+                    className="p-2 text-center modal-main"
+                    type="button"
+                    data-toggle="modal"
+                    data-target="#exampleModalCenter"
                   >
                     PROJECT DETAILS
-                  </Button>
+                  </button>
+                  {/* <!-- Modal --> */}
+                  <div
+                    class="modal fade"
+                    id="exampleModalCenter"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="exampleModalCenterTitle"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-centered"
+                      role="document"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLongTitle">
+                            Modal title
+                          </h5>
+                          <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-label="Close"
+                          >
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">...</div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                          <button type="button" class="btn btn-primary">
+                            Save changes
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </Card>
               </Col>
             </Row>
