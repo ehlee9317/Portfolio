@@ -9,6 +9,7 @@ import Projects from "./components/projects/projects.js";
 import About from "./pages/about/about";
 import Skills from "./pages/skills/skills";
 import Contact from "./pages/contact/contact";
+import ProjectCards from "./pages/projectCards/projectCards"
 
 //Effect
 import Container from "react-bootstrap/Container";
@@ -39,6 +40,11 @@ const App = () => {
           </div>
         </Parallax>
       </div>
+
+      <Container>
+        <hr />
+        <ProjectCards />
+      </Container>
 
       <Container>
         <hr />

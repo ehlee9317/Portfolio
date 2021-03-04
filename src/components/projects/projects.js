@@ -52,7 +52,7 @@ const Projects = () => {
                     </Card.Text>
                   </Card.Body>
                   <button
-                    // as={Card.Header}
+                    as={Card.Header}
                     className="p-2 text-center modal-main"
                     type="button"
                     data-toggle="modal"
@@ -60,7 +60,7 @@ const Projects = () => {
                   >
                     PROJECT DETAILS
                   </button>
-                  {/* <!-- Modal --> */}
+
                   <div
                     class="modal fade"
                     id="exampleModalCenter"
