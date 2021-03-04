@@ -5,11 +5,14 @@ const ProjectCardItem = (props) => {
    return (
       <>
          <li className="cards_item">
-            <div className="cards_item_link" to={props.path}>
-               <figure className="cards_item_pic-wrap" data-category={props.label}>
-                  <img src={props.src} alt="NAVIHEALTH" className="cards_item_img">
+            <div className="cards_item_link"> {/* container */}
+               <div className="cards_item_pic-wrap" data-category={props.label}>
+                  <img src={props.src} alt="projects" className="cards_item_img">
                   </img>
-               </figure>
+                  <div className="img_description">
+                     Open GitHub
+                  </div>
+               </div>
                <div className="cards_item_info">
                   <h5 className="cards_item_text">
                      {props.text}

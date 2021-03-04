@@ -14,21 +14,21 @@ const ProjectCards = () => {
           <ul className="cards_items">
             <ProjectCardItem
               src={NAVIHEALTH}
-              text="NaviHealth is an iOS based mobile application that help you track and meet your fitness goals"
+              text="NaviHealth is an iOS based mobile application that help you track and meet your fitness goals on the go!"
               label="NAVIHEALTH"
-              path="/navihealth"
+              path="https://github.com/FSA-CS-Taurus/NaviHealth"
             />
             <ProjectCardItem
               src={CELLAR}
-              text="An e-commerce web application, where you can shop various types of wine products."
+              text="An e-commerce web application, where you can shop various types of wine products!"
               label="CELLAR"
-              path="/cellar"
+              path="https://github.com/Team-Kappa/GraceShopper"
             />
             <ProjectCardItem
               src={FOODNATION}
-              text="A one stop mobile application, where you can search for different food recipes"
+              text="A one stop mobile application, where you can search for different food recipes!"
               label="FOODNATION"
-              path="/foodnation"
+              path="https://github.com/ehlee9317/Food-Nation"
             />
           </ul>
         </div>
