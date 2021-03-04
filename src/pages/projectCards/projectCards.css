@@ -13,12 +13,13 @@
    align-items: center;
    max-width: 1120px;
    width: 100%;
-   margin: 0 auto;
+   /* margin: 0 auto; */
  }
 
  .cards_wrapper {
-   position: relative;
-   margin: 50px 0 45px;
+   align-items: center;
+   /* position: relative; */
+   margin: 50px -100px 45px -140px;
  }
 
  .cards_items {
@@ -51,11 +52,6 @@
    overflow: hidden;
  }
 
- .fade-img {
-   animation-name: fade-img;
-   animation-duration: 2s;
- }
-
  .cards_item_pic-wrap::after {
    content: attr(data-category);
    position: absolute;
@@ -63,7 +59,7 @@
    margin-left: 10px;
    padding: 6px 8px;
    max-width: calc((100%) - 60px);
-   font-size: 12px;
+   font-size: 16px;
    font-weight: 700;
    color: #fff;
    background-color: #1f98f4;
@@ -86,7 +82,7 @@
  }
 
  .cards_item_img:hover {
-   transform: scale(1.1);
+   transform: scale(1.07);
  }
 
  .cards_item_info {

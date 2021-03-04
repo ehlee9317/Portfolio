@@ -46,10 +46,10 @@ const App = () => {
         <ProjectCards />
       </Container>
 
-      <Container>
+      {/* <Container>
         <hr />
         <Projects />
-      </Container>
+      </Container> */}
 
       <Container>
         <Slide bottom duration={1000}>

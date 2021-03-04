@@ -7,8 +7,8 @@ import CELLAR from "../../assets/projects/cellar.jpg";
 
 const ProjectCards = () => {
   return (
-    <div className="cards">
-      <h1>PROJECTS</h1>
+    <div className="cards" id="projects">
+      <h1 className="font-details-b pt-4 pb-4">PROJECTS</h1>
       <div className="cards_container">
         <div className="cards_wrapper">
           <ul className="cards_items">
