@@ -20,11 +20,7 @@ const About = () => {
         <Container className="pt-4">
           <Row className="pt-3 pb-5 text-center">
             <Col xs={12} md={3} className="p-1">
-              <SpeedometerOutline
-                color={"#00000"}
-                height="90px"
-                width="90px"
-              />
+              <SpeedometerOutline color={"#00000"} height="90px" width="90px" />
               <br />
               <strong>FAST</strong>
               <br />
@@ -55,7 +51,7 @@ const About = () => {
           <Row className="pt-3 pb-5 align-item-center">
             {/* Profile Pic */}
             <Col xs={12} md={6}>
-              <Row className="justify-content-center mb-2 mr-2">
+              <Row className="justify-content-center pt-4">
                 <Image
                   className="profile justify-content-end"
                   alt="profile"
@@ -67,15 +63,22 @@ const About = () => {
             </Col>
             {/* About me description */}
             <Col xs={12} md={6}>
-              <Row className="align-items-start p-2 my-details rounded">
-                Hi there! My name is <strong>&nbsp;Eun Hyuk Lee</strong>
-                <br />
-                I am a Full Stack web developer with React.js, Redux,
-                Express.js, Node and much more.
-                <br />
-                <br />I have a serious passion for UI and UX designs, and
-                creating intuitive and dynamic user experiences. I am looking
-                forward to working with you and make something special!
+              <Row className="align-items-start my-details rounded">
+                <div className="greetings pb-3">
+                  Hi there! I'm<strong>&nbsp;Eun Hyuk Lee</strong>
+                </div>
+
+                <div className="pb-2">
+                  I am a Full Stack web developer with React.js, Redux,
+                  Express.js, Node and much more.
+                </div>
+
+                <div className="pb-2">
+                  Prior to starting my journey to become a software developer, I was a sales operations data analyst at a tech company, where I was responsible for data analysis reports on various product categories such as TV, AV, Tablet, and more. When I realized I reached the ceiling in my current role, I wanted to expand my career to get more technical. I started to look into programming to expand my data analysis skills, and that was when I realized my passion for programming. I love the excitement, collaboration, creativity and flexibility that goes into each project, which triggered me to pursue a new career as a software developer.
+                </div>
+                <div>
+                  I have a serious passion for UI and UX designs, and creating intuitive and dynamic user experiences. I am looking forward to working with you and make something special!
+                </div>
               </Row>
             </Col>
           </Row>

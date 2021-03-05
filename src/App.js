@@ -56,7 +56,7 @@ const App = () => {
       </Container> */}
 
       <Container>
-        <Slide bottom duration={1000}>
+        <Slide bottom duration={900}>
           <hr />
           <Skills />
         </Slide>
