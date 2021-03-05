@@ -1,3 +1,7 @@
 .icon{
    margin-right: 4%;
 }
+
+Button {
+   scroll-behavior: smooth;
+ }
