@@ -3,7 +3,7 @@ import "./App.css";
 
 //component
 import MyNavbar from "./components/myNavbar/myNavbar";
-import MyCarousel from "./components/myCarousel/myCarousel";
+import MyHome from "./components/myHome/myHome";
 import TitleMessage from "./components/titleMessage";
 import Projects from "./components/projects/projects.js";
 import About from "./pages/about/about";
@@ -23,7 +23,7 @@ const App = () => {
   return (
     <div style={{ position: "relative" }}>
       <MyNavbar />
-      <MyCarousel />
+      <MyHome />
       <TitleMessage />
 
       <div>
