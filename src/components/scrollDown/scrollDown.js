@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import Button from "react-bootstrap/Button";
-import { GrLinkNext } from "react-icons/gr";
-import { GrLinkDown } from "react-icons/gr";
 
 import "./scrollDown.css";
 

@@ -5,7 +5,6 @@ import "./App.css";
 import MyNavbar from "./components/myNavbar/myNavbar";
 import MyHome from "./components/myHome/myHome";
 import TitleMessage from "./components/titleMessage";
-import Projects from "./components/projects/projects.js";
 import About from "./pages/about/about";
 import Skills from "./pages/skills/skills";
 import Contact from "./pages/contact/contact";
@@ -15,9 +14,8 @@ import ProjectCards from "./pages/projectCards/projectCards";
 import Container from "react-bootstrap/Container";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
-import LightSpeed from 'react-reveal/LightSpeed'
-import Reveal from 'react-reveal/Reveal'
-import { Parallax } from "react-parallax";
+import LightSpeed from "react-reveal/LightSpeed";
+import Reveal from "react-reveal/Reveal";
 
 const App = () => {
   return (
@@ -27,20 +25,13 @@ const App = () => {
       <TitleMessage />
 
       <div>
-        <Parallax
-          blur={{ min: -30, max: 30 }}
-          bgImage={require("./assets/background.webp")}
-          bgImageAlt=""
-          strength={-200}
-        >
-          <div>
-            <Container>
-              <Fade duration={1000}>
-                <About />
-              </Fade>
-            </Container>
-          </div>
-        </Parallax>
+        <div>
+          <Container>
+            <Fade duration={1000}>
+              <About />
+            </Fade>
+          </Container>
+        </div>
       </div>
 
       <Container>
@@ -49,11 +40,6 @@ const App = () => {
           <ProjectCards />
         </LightSpeed>
       </Container>
-
-      {/* <Container>
-        <hr />
-        <Projects />
-      </Container> */}
 
       <Container>
         <Slide bottom duration={900}>

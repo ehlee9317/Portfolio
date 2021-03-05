@@ -13,12 +13,10 @@ h1 {
   align-items: center;
   max-width: 1120px;
   width: 100%;
-  /* margin: 0 auto; */
 }
 
 .cards_wrapper {
   align-items: center;
-  /* position: relative; */
   margin: 50px -100px 45px -140px;
 }
 
@@ -82,7 +80,7 @@ h1 {
   transition: all 0.2s linear;
 }
 
-.cards_item_img:hover{
+.cards_item_img:hover {
   transform: scale(1.07);
   -webkit-filter: blur("4px");
   filter: blur(4px);
