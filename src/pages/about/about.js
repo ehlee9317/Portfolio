@@ -51,7 +51,7 @@ const About = () => {
           <Row className="pt-3 pb-5 align-item-center">
             {/* Profile Pic */}
             <Col xs={12} md={6}>
-              <Row className="justify-content-center pt-4">
+              <Row className="justify-content-center pt-4 pb-4">
                 <Image
                   className="profile justify-content-end"
                   alt="profile"
