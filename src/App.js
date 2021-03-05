@@ -9,12 +9,14 @@ import Projects from "./components/projects/projects.js";
 import About from "./pages/about/about";
 import Skills from "./pages/skills/skills";
 import Contact from "./pages/contact/contact";
-import ProjectCards from "./pages/projectCards/projectCards"
+import ProjectCards from "./pages/projectCards/projectCards";
 
 //Effect
 import Container from "react-bootstrap/Container";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
+import LightSpeed from 'react-reveal/LightSpeed'
+import Reveal from 'react-reveal/Reveal'
 import { Parallax } from "react-parallax";
 
 const App = () => {
@@ -42,8 +44,10 @@ const App = () => {
       </div>
 
       <Container>
-        <hr />
-        <ProjectCards />
+        <LightSpeed left duration={1000}>
+          <hr />
+          <ProjectCards />
+        </LightSpeed>
       </Container>
 
       {/* <Container>
@@ -57,11 +61,12 @@ const App = () => {
           <Skills />
         </Slide>
       </Container>
+
       <Container>
-        <Fade duration={1000}>
+        <Reveal duration={1000}>
           <hr />
           <Contact />
-        </Fade>
+        </Reveal>
       </Container>
     </div>
   );
