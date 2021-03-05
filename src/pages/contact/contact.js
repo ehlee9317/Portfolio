@@ -2,19 +2,20 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import "./contact.css";
 
+
 // ICONS
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
 import { FaMediumM } from "react-icons/fa";
 import { BiChevronsUp } from "react-icons/bi";
 import { FiFileText } from "react-icons/fi"
 
 const Contact = () => {
+
   return (
-    <div id="contact">
+    <div className="cards" id="contact">
       <div className="contact">
-        <h1 className="pt-3 text-center font-details pb-3">CONTACT</h1>
+        <h1 className="pt-4 text-center font-details pb-4">CONTACT</h1>
 
         <form class="w-50 container">
           <div class="pt-3 pb-4 text-center">
@@ -50,11 +51,11 @@ const Contact = () => {
             <button type="button" class="btn btn-outline-dark">
               Submit
             </button>
-            {/* <Button>SUBMIT</Button> */}
           </div>
         </form>
         <div className="text-center pt-5">
-          <Button href="home" class="btn btn-secondary">
+
+          <Button href="home" type="button" class="btn btn-secondary">
             <BiChevronsUp size={32} />
           </Button>
         </div>

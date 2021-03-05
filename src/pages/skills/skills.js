@@ -10,9 +10,9 @@ import "./skills.css";
 
 const Skills = () => {
   return (
-    <div className="pt-3 pb-3" id="skills">
-      <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
-      <CardDeck className="justify-content-center">
+    <div className="cards" id="skills">
+      <h1 className="text-center font-details-b pt-4 pb-4">TECH SKILLS</h1>
+      <CardDeck className="justify-content-center pt-4">
         <Row>
           {/* Frontend */}
           <Col md={4}>

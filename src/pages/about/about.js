@@ -14,10 +14,10 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div id="about">
+    <div className="cards" id="about">
       <div className="about">
-        <h1 className="pt-3 text-center font-details pb-3">ABOUT</h1>
-        <Container>
+        <h1 className="text-center font-details pt-4 pb-3">ABOUT</h1>
+        <Container className="pt-4">
           <Row className="pt-3 pb-5 text-center">
             <Col xs={12} md={3} className="p-1">
               <SpeedometerOutline
