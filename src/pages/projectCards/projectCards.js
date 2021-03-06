@@ -16,14 +16,14 @@ const ProjectCards = () => {
               src={NAVIHEALTH}
               text="NaviHealth is an iOS based mobile application that help you track and meet your fitness goals on the go!"
               label="NAVIHEALTH"
-              url="https://github.com/FSA-CS-Taurus/NaviHealth"
+              url="https://github.com/ehlee9317/NaviHealth"
               title="NAVIHEALTH"
             />
             <ProjectCardItem
               src={CELLAR}
               text="An e-commerce web application, where you can shop various types of wine products!"
               label="CELLAR"
-              url="https://github.com/Team-Kappa/GraceShopper"
+              url="https://github.com/ehlee9317/TheCellar"
               title="THE CELLAR"
             />
             <ProjectCardItem
