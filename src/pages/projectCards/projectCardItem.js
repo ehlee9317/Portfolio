@@ -5,13 +5,12 @@ const ProjectCardItem = (props) => {
     <>
       <li className="cards_item">
         <div className="cards_item_link">
-          <div
+          <a
+            href={props.url}
+            target="_blank"
+            rel="noreferrer"
             className="cards_item_pic-wrap"
             data-category={props.label}
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href = `${props.url}`;
-            }}
           >
             <img
               src={props.src}
@@ -19,7 +18,7 @@ const ProjectCardItem = (props) => {
               className="cards_item_img"
             ></img>
             <div className="img_description">{props.title}</div>
-          </div>
+          </a>
           <div className="cards_item_info">
             <h5 className="cards_item_text">{props.text}</h5>
           </div>

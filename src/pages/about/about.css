@@ -4,11 +4,12 @@
  }
 
  .profile {
-   max-width: 18em;
+   max-width: 17em;
  }
 
  .my-details {
    font-size: 16px;
+   margin-left: 5%;
  }
 
  .horizontal {

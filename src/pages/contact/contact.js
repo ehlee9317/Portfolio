@@ -90,50 +90,45 @@ const Contact = () => {
         </form>
 
         <div className="text-center pt-5">
-          <Button href="home" type="button" class="btn btn-secondary">
+          <Button href="#home" type="button" class="btn btn-secondary">
             <BiChevronsUp size={32} />
           </Button>
         </div>
 
         <div className="text-center pt-5 pb-5">
-          <button
+          <a
+            href="https://www.linkedin.com/in/eunhyuklee/"
+            target="_blank"
+            rel="noreferrer"
             className="icon btn bg-transparent"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href = "https://www.linkedin.com/in/eunhyuklee/";
-            }}
           >
             <FaLinkedinIn size={36} />
-          </button>
+          </a>
 
-          <button
+          <a
+            href="https://github.com/ehlee9317"
+            target="_blank"
+            rel="noreferrer"
             className="icon btn bg-transparent"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href = "https://github.com/ehlee9317";
-            }}
           >
             <FaGithub size={36} />
-          </button>
-          <button
+          </a>
+          <a
+            href="https://ehlee9317.medium.com/"
+            target="_blank"
+            rel="noreferrer"
             className="icon btn bg-transparent"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href = "https://ehlee9317.medium.com/";
-            }}
           >
             <FaMediumM size={36} />
-          </button>
-          <button
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1ac1kmvGuNOfW7c2rgZN_WfkYOLrlV6M-/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
             className="btn bg-transparent"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href =
-                "https://drive.google.com/file/d/1ac1kmvGuNOfW7c2rgZN_WfkYOLrlV6M-/view?usp=sharing";
-            }}
           >
             <FiFileText size={36} />
-          </button>
+          </a>
         </div>
         <div class="text-center pb-4">
           <text>EUN HYUK LEE ©2021</text>

@@ -7,7 +7,7 @@ import "./scrollDown.css";
 const MyScroll = styled.div`
   position: relative;
   z-index: 1;
-  bottom: 20.6em;
+  bottom: 24em;
   display: flex;
   justify-content: center;
   .turn {
