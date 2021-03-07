@@ -35,10 +35,10 @@ const App = () => {
       </div>
 
       <Container>
-        <LightSpeed left duration={1000}>
+        <Slide bottom  duration={1000}>
           <hr />
           <ProjectCards />
-        </LightSpeed>
+        </Slide>
       </Container>
 
       <Container>

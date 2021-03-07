@@ -5,10 +5,11 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 
 import profilePic from "../../assets/profilePic.jpg";
-import { SpeedometerOutline } from "react-ionicons";
-import { DesktopOutline } from "react-ionicons";
-import { BulbOutline } from "react-ionicons";
-import { RocketOutline } from "react-ionicons";
+import { BiDevices } from "react-icons/bi";
+import { BiLayer } from "react-icons/bi";
+import { BiBulb } from "react-icons/bi";
+import { BiSitemap } from "react-icons/bi";
+import { BiRocket } from "react-icons/bi";
 
 import "./about.css";
 
@@ -20,30 +21,45 @@ const About = () => {
         <Container className="pt-4">
           <Row className="pt-3 pb-5 text-center">
             <Col xs={12} md={3} className="p-1">
-              <SpeedometerOutline color={"#00000"} height="90px" width="90px" />
+              <BiLayer
+                color={"#00000"}
+                size="80px"
+                height="90px"
+                width="90px"
+              />
               <br />
-              <strong>FAST</strong>
+              <strong className="iconTraits">STRUCTURED</strong>
               <br />
-              Fast load time and lag free interactions
+              Easy to navigate and effective code
             </Col>
             <Col xs={12} md={3} className="p-1">
-              <DesktopOutline color={"#00000"} height="90px" width="90px" />
+              <BiDevices
+                color={"#00000"}
+                size="80px"
+                height="90px"
+                width="90px"
+              />
               <br />
-              <strong>RESPONSIVE</strong>
+              <strong className="iconTraits">RESPONSIVE</strong>
               <br />
               Works on any device
             </Col>
             <Col xs={12} md={3} className="p-1">
-              <BulbOutline color={"#00000"} height="90px" width="90px" />
+              <BiBulb color={"#00000"} size="80px" height="90px" width="90px" />
               <br />
-              <strong>INTUITIVE</strong>
+              <strong className="iconTraits">INTUITIVE</strong>
               <br />
               Easy to use and intuitive UI/UX
             </Col>
             <Col xs={12} md={3} className="p-1">
-              <RocketOutline color={"#00000"} height="90px" width="90px" />
+              <BiRocket
+                color={"#00000"}
+                size="80px"
+                height="90px"
+                width="90px"
+              />
               <br />
-              <strong>DYNAMIC</strong>
+              <strong className="iconTraits">DYNAMIC</strong>
               <br />
               Dyanmic websites that come to life
             </Col>
@@ -65,7 +81,7 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className="align-items-start my-details rounded">
                 <div className="greetings pb-3">
-                  Hi there! I'm<strong>&nbsp;Eun Hyuk Lee</strong>
+                  Hi! I'm&nbsp;<strong>Eun Hyuk Lee</strong>
                 </div>
 
                 <div className="pb-2">
@@ -74,10 +90,22 @@ const About = () => {
                 </div>
 
                 <div className="pb-2">
-                  Prior to starting my journey to become a software developer, I was a sales operations data analyst at a tech company, where I was responsible for data analysis reports on various product categories such as TV, AV, Tablet, and more. When I realized I reached the ceiling in my current role, I wanted to expand my career to get more technical. I started to look into programming to expand my data analysis skills, and that was when I realized my passion for programming. I love the excitement, collaboration, creativity and flexibility that goes into each project, which triggered me to pursue a new career as a software developer.
+                  Prior to starting my journey to become a software developer, I
+                  was a sales operations data analyst at a tech company, where I
+                  was responsible for data analysis reports on various product
+                  categories such as TV, AV, Tablet, and more. When I realized I
+                  reached the ceiling in my current role, I wanted to expand my
+                  career to get more technical. I started to look into
+                  programming to expand my data analysis skills, and that was
+                  when I realized my passion for programming. I love the
+                  excitement, collaboration, creativity and flexibility that
+                  goes into each project, which triggered me to pursue a new
+                  career as a software developer.
                 </div>
                 <div>
-                  I have a serious passion for UI and UX designs, and creating intuitive and dynamic user experiences. I am looking forward to working with you and make something special!
+                  I have a serious passion for UI and UX designs, and creating
+                  intuitive and dynamic user experiences. I am looking forward
+                  to working with you and make something special!
                 </div>
               </Row>
             </Col>

@@ -122,7 +122,7 @@ const Contact = () => {
             <FaMediumM size={36} />
           </a>
           <a
-            href="https://drive.google.com/file/d/1ac1kmvGuNOfW7c2rgZN_WfkYOLrlV6M-/view?usp=sharing"
+            href="https://drive.google.com/file/d/1cbWmYTfSRRsyBKzJYUh-QNC--gq8cac9/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="btn bg-transparent"
