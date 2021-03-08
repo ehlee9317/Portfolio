@@ -1,27 +1,36 @@
 .about {
-   background-color: transparent;
-   font-size: 1.1em;
- }
+  background-color: transparent;
+  font-size: 1.1em;
+}
 
- .profile {
-   max-width: 17em;
- }
+.profile {
+  max-width: 17em;
+}
 
- .my-details {
-   font-size: 16px;
-   margin-left: 5%;
- }
+.my-details {
+  font-size: 16px;
+  margin-left: 5%;
+}
 
- .horizontal {
-    width: 100px;
-    align-items: center;
-    justify-content: center;
- }
+.horizontal {
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+}
 
- .greetings {
-   font-size: 30px;
- }
+.greetings {
+  font-size: 30px;
+}
 
- .iconTraits {
-   font-size: 24px
- }
+.iconTraits {
+  font-size: 23px;
+}
+
+.icon-info {
+  font-size: 18px;
+}
+
+.pictureContainer {
+  padding-top: 10%;
+  padding-bottom: 10%
+}

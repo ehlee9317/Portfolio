@@ -30,7 +30,9 @@ const About = () => {
               <br />
               <strong className="iconTraits">STRUCTURED</strong>
               <br />
-              Easy to navigate and effective code
+              <div className="icon-info">
+                Well-structured and effective code
+              </div>
             </Col>
             <Col xs={12} md={3} className="p-1">
               <BiDevices
@@ -42,14 +44,14 @@ const About = () => {
               <br />
               <strong className="iconTraits">RESPONSIVE</strong>
               <br />
-              Works on any device
+              <div className="icon-info">Works on any device</div>
             </Col>
             <Col xs={12} md={3} className="p-1">
               <BiBulb color={"#00000"} size="80px" height="90px" width="90px" />
               <br />
               <strong className="iconTraits">INTUITIVE</strong>
               <br />
-              Easy to use and intuitive UI/UX
+              <div className="icon-info">Easy to use and intuitive UI/UX</div>
             </Col>
             <Col xs={12} md={3} className="p-1">
               <BiRocket
@@ -61,13 +63,15 @@ const About = () => {
               <br />
               <strong className="iconTraits">DYNAMIC</strong>
               <br />
-              Dyanmic websites that come to life
+              <div className="icon-info">
+                Dynamic websites that come to life
+              </div>
             </Col>
           </Row>
           <Row className="pt-3 pb-5 align-item-center">
             {/* Profile Pic */}
             <Col xs={12} md={6}>
-              <Row className="justify-content-center pt-5 pb-4">
+              <Row className="pictureContainer justify-content-center">
                 <Image
                   className="profile justify-content-end"
                   alt="profile"
@@ -85,20 +89,19 @@ const About = () => {
                 </div>
 
                 <div className="pb-2">
-                  I am a Full Stack web developer with React.js, Redux,
-                  Express.js, Node and much more.
+                  I am a full stack developer, UI & UX designer, food explorer,
+                  and coffee addict.
                 </div>
 
                 <div className="pb-2">
                   Prior to starting my journey to become a software developer, I
                   was a sales operations data analyst at a tech company, where I
                   was responsible for data analysis reports on various product
-                  categories such as TV, AV, Tablet, and more. When I realized I
-                  reached the ceiling in my current role, I wanted to expand my
-                  career to get more technical. I started to look into
-                  programming to expand my data analysis skills, and that was
-                  when I realized my passion for programming. I love the
-                  excitement, collaboration, creativity and flexibility that
+                  categories. When I realized that my work has been stagnant, I
+                  wanted to expand my career to get more technical. I started to
+                  look into programming to enhance my data analysis skills, and
+                  that was when I realized my passion for programming. I love
+                  the excitement, collaboration, creativity, and flexibility that
                   goes into each project, which triggered me to pursue a new
                   career as a software developer.
                 </div>
