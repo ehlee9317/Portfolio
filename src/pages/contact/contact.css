@@ -6,3 +6,12 @@ div {
    scroll-behavior: smooth;
  }
 
+.homeButton {
+   background-color: #18A2B8;
+   border: 2px solid #18A2B8
+}
+
+.homeButton:hover {
+   background-color: #264653;
+   border: 2px solid #264653
+}

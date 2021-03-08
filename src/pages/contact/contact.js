@@ -90,9 +90,10 @@ const Contact = () => {
         </form>
 
         <div className="text-center pt-5">
-          <Button href="#home" type="button" class="btn btn-secondary">
-            <BiChevronsUp size={32} />
+          <Button href="#home" type="button" className="homeButton">
+            <BiChevronsUp className="upArrowButton"size={32} />
           </Button>
+
         </div>
 
         <div className="text-center pt-5 pb-5">
