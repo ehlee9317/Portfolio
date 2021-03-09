@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import emailjs from "emailjs-com";
 import Button from "react-bootstrap/Button";
 import "./contact.css";
@@ -11,6 +11,28 @@ import { BiChevronsUp } from "react-icons/bi";
 import { FiFileText } from "react-icons/fi";
 
 const Contact = () => {
+  const [contactFormWidth, setContactFormWidth] = useState("w-50");
+
+  const reportWindowSize = () => {
+    window.innerWidth <= 768
+      ? setContactFormWidth("w-100")
+      : setContactFormWidth("w-50");
+  };
+
+  window.addEventListener("resize", reportWindowSize);
+
+  useEffect(() => {
+    window.innerWidth <= 768
+      ? setContactFormWidth("w-100")
+      : setContactFormWidth("w-50");
+    const contactSection = document.getElementById("contact");
+
+    if (window.innerWidth < 768) {
+      console.log("@@@@@ contactSection", contactSection);
+      contactSection.style.padding = "1rem";
+    }
+  }, []);
+
   function sendEmail(e) {
     e.preventDefault();
 
@@ -37,7 +59,7 @@ const Contact = () => {
       <div className="contact">
         <h1 className="pt-4 text-center font-details pb-4">CONTACT</h1>
 
-        <form class="w-50 container" onSubmit={sendEmail}>
+        <form class={`${contactFormWidth} container`} onSubmit={sendEmail}>
           <div class="pt-3 pb-4 text-center">
             <text>Have a question or want to work together?</text>
           </div>
@@ -91,9 +113,8 @@ const Contact = () => {
 
         <div className="text-center pt-5">
           <Button href="#home" type="button" className="homeButton">
-            <BiChevronsUp className="upArrowButton"size={32} />
+            <BiChevronsUp className="upArrowButton" size={32} />
           </Button>
-
         </div>
 
         <div className="text-center pt-5 pb-5">
