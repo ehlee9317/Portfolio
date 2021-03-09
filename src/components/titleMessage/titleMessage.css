@@ -1,0 +1,39 @@
+.title-message-section {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+  margin-top: -5%;
+  top: 22rem;
+}
+
+.greeting {
+  font-size: 40px;
+}
+.name {
+  font-size: 70px;
+  font-weight: 600;
+  margin-top: -1.2%;
+}
+
+.typewriter {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-top: 1%
+}
+
+@media only screen and (max-width: 746px) {
+   .title-message-section {
+      top: 11rem;
+   }
+   .greeting {
+      font-size: 34px
+   }
+   .name {
+      font-size: 55px;
+   }
+   .typewriter {
+      font-size: 24px;
+   }
+}
+
+

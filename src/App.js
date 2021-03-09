@@ -4,7 +4,6 @@ import "./App.css";
 //component
 import MyNavbar from "./components/myNavbar/myNavbar";
 import MyHome from "./components/myHome/myHome";
-import TitleMessage from "./components/titleMessage";
 import About from "./pages/about/about";
 import Skills from "./pages/skills/skills";
 import Contact from "./pages/contact/contact";
@@ -22,7 +21,6 @@ const App = () => {
     <div style={{ position: "relative" }}>
       <MyNavbar />
       <MyHome />
-      <TitleMessage />
 
       <div>
         <div>
