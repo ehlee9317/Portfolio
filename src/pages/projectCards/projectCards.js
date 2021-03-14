@@ -14,7 +14,7 @@ const ProjectCards = () => {
           <ul className="cards_items">
             <ProjectCardItem
               src={NAVIHEALTH}
-              text="NaviHealth is an iOS based mobile application that help you track and meet your fitness goals on the go!"
+              text="NaviHealth is an iOS based mobile application that helps you track and meet your fitness goals on the go!"
               label="NAVIHEALTH"
               url="https://github.com/ehlee9317/NaviHealth"
               title="NAVIHEALTH"

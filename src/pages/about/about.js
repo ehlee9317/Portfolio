@@ -108,7 +108,7 @@ const About = () => {
                 <div>
                   I have a serious passion for UI and UX designs, and creating
                   intuitive and dynamic user experiences. I am looking forward
-                  to working with you and make something special!
+                  to working with you and making something special!
                 </div>
               </Row>
             </Col>
