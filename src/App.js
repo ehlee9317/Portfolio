@@ -13,7 +13,6 @@ import ProjectCards from "./pages/projectCards/projectCards";
 import Container from "react-bootstrap/Container";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
-import LightSpeed from "react-reveal/LightSpeed";
 import Reveal from "react-reveal/Reveal";
 
 const App = () => {
