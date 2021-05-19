@@ -78,6 +78,7 @@ const About = () => {
                   src={profilePic}
                   thumbnail
                   fluid
+                  style={{height: '400px'}}
                 />
               </Row>
             </Col>
