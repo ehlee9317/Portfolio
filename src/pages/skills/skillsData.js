@@ -19,6 +19,9 @@ import L_FIREBASE from "../../assets/skills/firebase.png";
 import L_EXPO from "../../assets/skills/expo.png";
 import L_D3 from "../../assets/skills/d3.png";
 import L_VICTORY from "../../assets/skills/victory.png";
+import L_CHART_JS from "../../assets/skills/chartjs.png";
+import L_PYTHON from "../../assets/skills/python.png";
+import L_NETLIFY from "../../assets/skills/netlify.png";
 
 export const skills = {
   frontend: [
@@ -104,6 +107,12 @@ export const skills = {
       imgSrc: L_FIREBASE,
       skillName: "Firebase",
     },
+    {
+      link: "https://www.python.org/",
+      imgAltText: "Python",
+      imgSrc: L_PYTHON,
+      skillName: "Python",
+    },
   ],
   hostingPlatforms: [
     {
@@ -119,6 +128,18 @@ export const skills = {
       skillName: "Expo",
     },
     {
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
+    },
+    {
+      link: "https://www.netlify.com/",
+      imgAltText: "Netlify",
+      imgSrc: L_NETLIFY,
+      skillName: "Netlify",
+    },
+    {
       link: "https://pages.github.com/",
       imgAltText: "GitHub Pages",
       imgSrc: L_GITHUB_PAGES,
@@ -127,17 +148,24 @@ export const skills = {
   ],
   dataVisualization: [
     {
+      link: "https://formidable.com/open-source/victory/",
+      imgAltText: "Victory",
+      imgSrc: L_VICTORY,
+      skillName: "Victory",
+    },
+    {
       link: "https://d3js.org/",
       imgAltText: "D3.js",
       imgSrc: L_D3,
       skillName: "D3.js",
     },
     {
-      link: "https://formidable.com/open-source/victory/",
-      imgAltText: "Victory",
-      imgSrc: L_VICTORY,
-      skillName: "Victory",
+      link: "https://www.chartjs.org/",
+      imgAltText: "Chart.js",
+      imgSrc: L_CHART_JS,
+      skillName: "Chart.js",
     },
+
   ],
 
   databases: [
