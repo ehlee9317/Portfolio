@@ -94,7 +94,8 @@ h1 {
   color: #fff;
   text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000,
     -1px -1px 0 #000;
-  font-size: 28px;
+  font-size: 35px;
+  text-align: center;
   font-weight: 900;
   visibility: hidden;
   opacity: 0;
@@ -107,13 +108,22 @@ h1 {
 }
 
 .cards_item_info {
-  padding: 15px 30px 30px;
+  padding: 15px 30px 0px;
 }
 
 .cards_item_text {
   color: #252e48;
   font-size: 16px;
   line-height: 20px;
+}
+
+.cards_item_github {
+  padding: 0px 30px 10px;
+  font-size: 30px;
+}
+
+.cards_item_githubLogo {
+  color: black;
 }
 
 @media only screen and (min-width: 1200px) {

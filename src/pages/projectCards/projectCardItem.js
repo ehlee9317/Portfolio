@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub } from 'react-icons/fa';
 
 const ProjectCardItem = (props) => {
   return (
@@ -21,6 +22,17 @@ const ProjectCardItem = (props) => {
           </a>
           <div className="cards_item_info">
             <h5 className="cards_item_text">{props.text}</h5>
+          </div>
+          <div className="cards_item_github">
+            <a
+              href={props.github}
+              target="_blank"
+              rel="noreferrer"
+              data-category={props.label}
+            >
+              <FaGithub className="cards_item_githubLogo"/>
+            </a>
+
           </div>
         </div>
       </li>

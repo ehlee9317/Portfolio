@@ -4,6 +4,7 @@ import "./projectCards.css";
 import NAVIHEALTH from "../../assets/projects/navihealth.jpg";
 import FOODNATION from "../../assets/projects/foodnation.jpg";
 import CELLAR from "../../assets/projects/cellar.jpg";
+import COVIDTRACKER from "../../assets/projects/covidTracker.jpg";
 
 const ProjectCards = () => {
   return (
@@ -16,22 +17,25 @@ const ProjectCards = () => {
               src={NAVIHEALTH}
               text="NaviHealth is an iOS based mobile application that helps you track and meet your fitness goals on the go!"
               label="NAVIHEALTH"
-              url="https://github.com/ehlee9317/NaviHealth"
+              url="https://www.youtube.com/watch?v=0umvimJ5pjI/ehlee9317/NaviHealth"
               title="NAVIHEALTH"
+              github="https://github.com/FSA-CS-Taurus/NaviHealth"
             />
             <ProjectCardItem
               src={CELLAR}
               text="An e-commerce web application, where you can shop various types of wine products!"
               label="CELLAR"
-              url="https://github.com/ehlee9317/TheCellar"
+              url="https://thecellar.herokuapp.com/"
               title="THE CELLAR"
+              github="https://github.com/Team-Kappa/TheCellar"
             />
             <ProjectCardItem
-              src={FOODNATION}
-              text="A one stop mobile application, where you can search for different food recipes!"
-              label="FOODNATION"
-              url="https://github.com/ehlee9317/Food-Nation"
-              title="FOOD NATION"
+              src={COVIDTRACKER}
+              text="A COVID-19 dashboard with a map and a line graph to track daily and total cases, recovery and deaths."
+              label="TRACKER"
+              url="https://covid-19-tracker-d217b.web.app/"
+              title="COVID-19 TRACKER"
+              github="https://github.com/ehlee9317/covid19Tracker"
             />
           </ul>
         </div>
