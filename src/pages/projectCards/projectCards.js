@@ -17,7 +17,7 @@ const ProjectCards = () => {
               src={NAVIHEALTH}
               text="NaviHealth is an iOS based mobile application that helps you track and meet your fitness goals on the go!"
               label="NAVIHEALTH"
-              url="https://www.youtube.com/watch?v=0umvimJ5pjI/ehlee9317/NaviHealth"
+              url="https://www.youtube.com/watch?v=iLza3nLg9Wc"
               title="NAVIHEALTH"
               github="https://github.com/FSA-CS-Taurus/NaviHealth"
             />
